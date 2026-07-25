@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hermes-tmux-suite"
+version = "1.0.0"
+description = "Tmux-integrated delegate_task tailing for Hermes Agent"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.urls]
+Source = "https://github.com/nuffin/hermes-tmux-suite-pip"
+
+[tool.setuptools.packages.find]
+include = ["hermes_tmux_suite*"]
+
+[tool.setuptools.package-data]
+"hermes_tmux_suite" = ["skills/**/*"]

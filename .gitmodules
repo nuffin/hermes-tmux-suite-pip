@@ -1,0 +1,3 @@
+[submodule "hermes_tmux_suite"]
+	path = hermes_tmux_suite
+	url = https://github.com/nuffin/hermes-tmux-suite.git
