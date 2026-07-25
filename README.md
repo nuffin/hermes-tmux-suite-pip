@@ -17,6 +17,7 @@ pip install hermes-tmux-suite
 | Skill | What it does |
 |-------|-------------|
 | `tmux-delegate-task` | Dispatch subagent + auto-tail live transcript in tmux pane with auto-cleanup |
+| `tmux-socket` | Detect active tmux socket — provides the correct `-L`/`-S` flag for all tmux commands |
 
 ## Usage
 
