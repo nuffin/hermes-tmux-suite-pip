@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "hermes-tmux-suite"
-version = "1.0.5"
+version = "1.0.6"
 description = "Tmux-integrated delegate_task tailing for Hermes Agent"
 readme = "hermes_tmux_suite/README.md"
 requires-python = ">=3.11"

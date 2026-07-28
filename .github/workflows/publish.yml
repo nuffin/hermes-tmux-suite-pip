@@ -2,14 +2,14 @@ name: Publish to PyPI
 
 on:
   push:
-    tags:
-      - 'v*'
+    tags: ['v*']
 
 jobs:
   publish:
     runs-on: ubuntu-latest
     permissions:
-      id-token: write
+      id-token: write   # Required for PyPI trusted publishing
+
     steps:
       - uses: actions/checkout@v4
         with:
