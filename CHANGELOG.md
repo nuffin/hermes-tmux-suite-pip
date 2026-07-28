@@ -1,3 +1,9 @@
+## v1.0.7 (2026-07-28)
+
+- hermes_tmux_suite: 6e96e66 → 6127e1a
+- feat(tmux-delegate-task): add set +H pitfall for bash ! history expansion
+- feat(tmux-delegate-task): bump 2.2.0 → 2.3.0
+
 ## v1.0.6 (2026-07-28)
 
 - hermes_tmux_suite: 8dc9c6d → 6e96e66
